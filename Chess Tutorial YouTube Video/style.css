@@ -1,0 +1,52 @@
+**, **::after, **::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.chessboard {
+    border-collapse: collapse;
+    margin: auto;
+    width: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+th {
+    height: 50px;
+    width: 50px;
+    font-size: x-large;
+    user-select: none;
+}
+
+td {
+    user-select: none;
+}
+
+td:hover {
+    background-color: brown;
+}
+
+.dark {
+    background-color: green;
+    border: 2px solid black
+}
+
+.light {
+    background-color: gray;
+    border: 2px solid black
+}
+
+#whtPcs {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#blkPcs {
+    text-align: center;
+    font-size: xx-large;
+}
